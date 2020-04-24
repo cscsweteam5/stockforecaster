@@ -1,39 +1,57 @@
-<!DOCTYPE html>
-<!--first home page-->
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/png" href="wcwd.png" />
-        <link rel="stylesheet" type="text/css" href="stockStyle.css" />
-        <title>Stockr</title>
-    </head>
-    <body>
-	    <div class="stockBar">
-		   <fieldset>
-		      space to put the stock symbols and up and down arrows
-		   </fieldset>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Stockr - Cryptocurrency Predictor</title>
+  </head>
+  <body>
+	
+	<div>
+
+		<!-- Navbar content -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Stockr</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Stock Information</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About us</a>
+			</li>
+			</ul>
 		</div>
-	    <div class="navbar">
-		   <a href="http://localhost/SWE_Spring2020/stockr.php">Stockr</a>
-		   <a href="http://localhost/SWE_Spring2020/index.php">Home</a>
-		   <div class="dropdown">
-              <button class="dropbtn">Assignments
-                 <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-              </div>
-           </div>
-		   <a class="alignRight" href="login.php">Login</a>
-           <a class="alignRight" href="signup.php">Sign up</a>
-		   <a href="http://localhost/SWE_Spring2020/home.php">login Home</a>
-		   <a href="">Stock Information<a/>
-        </div>
-        <h1>Welcome to Stockr</h1>
-		<fieldset class="leftSide">
-		   this will be space for the chart for most popular stocks
-		</fieldset>
-		<fieldset class="rightSide">
-		   space for featured predictions (anything predicted to up 5 or more percent)
-		</fieldset>
-    </body>
+		<ul class="nav justify-content-end">
+			<li class="nav-item">
+				<a class="nav-link" href="signup.php">Sign Up</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="login.php">Log In</a>
+			</li>
+		</ul>
+		</nav>
+		<!-- Navbar end ... -->
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>

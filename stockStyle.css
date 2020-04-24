@@ -1,17 +1,17 @@
-body {
+/* body {
 	background-color: #adacac;
 	margin: 20px;
 	font-family: sans-serif;
 }
 
-/* Navbar container */
+/* Navbar container 
 .navbar {
   overflow: hidden;
   background-color: #ebac26;
   font-family: Arial;
 }
 
-/* Links inside the navbar */
+/* Links inside the navbar 
 .navbar a {
   float: left;
   font-size: 16px;
@@ -21,13 +21,13 @@ body {
   text-decoration: none;
 }
 
-/* The dropdown container */
+/* The dropdown container 
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
-/* Dropdown button */
+/* Dropdown button 
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -35,16 +35,16 @@ body {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit; /* Important for vertical align on mobile phones 
+  margin: 0; /* Important for vertical align on mobile phones 
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add a red background color to navbar links on hover 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
-/* Dropdown content (hidden by default) */
+/* Dropdown content (hidden by default) 
 .dropdown-content {
   display: none;
   position: absolute;
@@ -54,7 +54,7 @@ body {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+/* Links inside the dropdown 
 .dropdown-content a {
   float: none;
   color: black;
@@ -64,16 +64,16 @@ body {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
+/* Add a grey background color to dropdown links on hover 
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
+/* Show the dropdown menu on hover 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*align the Login and Signup link on the right side of Navbar*/
+/*align the Login and Signup link on the right side of Navbar
 a.alignRight{
 	position: relative;
 	text-align: right;
@@ -92,4 +92,12 @@ fieldset.rightSide{
 	width: 100px;
 	display: inline-block;
 	border-sizing: border-box;
+} */
+
+.nav{
+
+}
+
+#nav{
+  
 }
